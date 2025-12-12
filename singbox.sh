@@ -531,7 +531,7 @@ yellow "\n温馨提醒：需打开V2rayN或其他软件里的 "跳过证书验�
 green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接：http://${server_ip}:${nginx_port}/${password}\n"
 $work_dir/qrencode "http://${server_ip}:${nginx_port}/${password}"
 yellow "\n=========================================================================================="
-green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接：http://${server_ip}:${nginx_port}/${password}\n"
+green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接：https://hax-us2.yyy.xx.kg/sub/xray?config=http://${server_ip}:${nginx_port}/${password}\n"
 $work_dir/qrencode "https://hax-us2.yyy.xx.kg/sub/xray?config=http://${server_ip}:${nginx_port}/${password}"
 yellow "\n=========================================================================================="
 green "\n\nClash,Mihomo系列订阅链接：https://hax-us2.yyy.xx.kg/sub/clash?config=http://${server_ip}:${nginx_port}/${password}\n"
@@ -1393,7 +1393,8 @@ check_nodes() {
     green "\n\nSurge订阅链接: ${purple}https://hax-us2.yyy.xx.kg/sub/surge?config=${base64_url}${re}\n"
     green "sing-box订阅链接: ${purple}https://hax-us2.yyy.xx.kg/sub/singbox?config=${base64_url}${purple}\n"
     green "Mihomo/Clash系列订阅链接: ${purple}https://hax-us2.yyy.xx.kg/sub/clash?config=${base64_url}${re}\n"
-    green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接: ${purple}${base64_url}${re}\n"
+	green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接：https://hax-us2.yyy.xx.kg/sub/xray?config=http://${server_ip}:${nginx_port}/${password}\n"
+	green "V2rayN,Shadowrocket,Nekobox,Loon,Karing,Sterisand订阅链接: ${purple}${base64_url}${re}\n"
 }
 
 change_cfip() {
